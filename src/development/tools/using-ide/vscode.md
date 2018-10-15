@@ -12,13 +12,15 @@ description: How to develop a Flutter app in VSCode.
 
 <div class="tabs__content current" markdown="1">
 
-The [Flutter extension](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter) provides a fully integrated development experience in Visual Studio Code.
+The [Flutter
+extension](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter)
+provides a fully integrated development experience in Visual Studio Code.
 
 
 ## Installation and setup
 
-Please follow the [Editor Setup](/get-started/editor#vscode) instructions to install
-the Flutter extension (which includes Flutter functionality).
+Please follow the [Editor Setup](/get-started/editor#vscode) instructions to
+install the Flutter extension (which includes Flutter functionality).
 
 ### Updating the extension {#updating}
 
@@ -28,8 +30,8 @@ VS Code automatically updates extensions when updates are available.
 To install updates manually:
 
 1. Click on the Extensions button in the Side Bar
-1. If the Flutter extension is shown with an available update, click the update button and then
-the reload button
+1. If the Flutter extension is shown with an available update, click the
+   update button and then the reload button
 
 ## Creating projects
 
@@ -56,9 +58,10 @@ The Flutter extension performs code analysis that enables:
 
 * Syntax highlighting.
 * Code completions based on rich type analysis.
-* Navigating to type declarations (**Go to Definition** or `F12`), and finding type
-  usages (**Find All References** or `Shift`+`F12`).
-* Viewing all current source code problems (**View > Problems** or `Ctrl`+`Shift`+`M` (`Cmd`+`Shift`+`M` on macOS)).
+* Navigating to type declarations (**Go to Definition** or `F12`), and
+  finding type usages (**Find All References** or `Shift`+`F12`).
+* Viewing all current source code problems (**View > Problems** or
+  `Ctrl`+`Shift`+`M` (`Cmd`+`Shift`+`M` on macOS)).
   Any analysis issues are shown in the Problems pane:<br>
   <img src="/images/vscode/problems.png" style="width:660px;height:141px" alt="Problems pane" />
 
@@ -146,24 +149,28 @@ To open Observatory:
 Assists are code changes related to a certain code identifier. A number of these
 are available when the cursor is placed on a Flutter widget identifier, as
 indicated by the yellow lightbulb icon. The assist can be invoked by clicking
-the lightbulb, or by using the keyboard shortcut `Ctrl`+`Enter`, as illustrated
+the lightbulb, or by using the keyboard shortcut `Ctrl`+`.`, as illustrated
 here:
 
 <img src="/images/vscode/assists.png" style="width:467px;height:234px" alt="Code Assists" />
 
-Quick Fixes are similar, only they are shown with a piece of code has an error and they
-can assist in correcting it.
+Quick Fixes are similar, only they are shown with a piece of code has an
+error and they can assist in correcting it.
 
 #### Wrap with new widget assist
-This can be used when you have a widget that you want to wrap in a surrounding widget,
-for example if you want to wrap a widget in a `Row` or `Column`.
+
+This can be used when you have a widget that you want to wrap in a
+surrounding widget, for example if you want to wrap a widget in a `Row`
+or `Column`.
 
 ####  Wrap widget list with new widget assist
-Similar to the assist above, but for wrapping an existing list of widgets rather than an
-individual widget.
+
+Similar to the assist above, but for wrapping an existing list of widgets
+rather than an individual widget.
 
 #### Convert child to children assist
-Changes a child argument to a children argument, and wraps the argument value in a list.
+Changes a child argument to a children argument, and wraps the argument value
+in a list.
 
 ### Snippets
 
@@ -182,8 +189,9 @@ The Flutter extension includes the following snippets:
  associated State subclass including a field initialized with an
  `AnimationController`.
 
-You can also define custom snippets by executing **Configure User Snippets** from
-the [Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette).
+You can also define custom snippets by executing **Configure User Snippets**
+from the [Command
+Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette).
 
 ### Keyboard Shortcuts
 
@@ -213,7 +221,9 @@ types of code changes cannot be hot reloaded though:
 For these changes, fully restart your application without having to end
 your debugging session. To perform a hot restart, run the
 **Flutter: Hot Restart** command from the
-[Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette), or press `Ctrl`+`F5`.
+[Command
+Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette),
+or press `Ctrl`+`F5`.
 
 ## Troubleshooting
 
